@@ -14,10 +14,10 @@
             <a class="nav-link active" aria-current="page" href="#">About</a>
           </li>
         </ul>
-        <form class="d-flex" @submit.prevent="">
+<!--         <form class="d-flex" @submit.prevent="">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        </form> -->
       </div>
     </div>
   </nav>
@@ -45,6 +45,28 @@
   </main>
 
   <br>
+
+  <footer>
+    <div class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="footer-logo">Siklista</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="footer-links-container">
+              <p>Product</p>
+              <p>About</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
 
 </template>
 
@@ -92,6 +114,21 @@ h2 {
 .brand-style {
   font-family: $font-family-Caveat;
   font-size: 35px;
+}
+.main-footer {
+  background: $bg-white;
+  padding-top: 30px;
+
+  .footer-logo {
+    font-family: $font-family-Caveat;
+    font-size: 32px;
+    text-align: center;
+  }
+  .footer-links-container {
+    display: flexbox;
+    
+  }
+
 }
 
 </style>
