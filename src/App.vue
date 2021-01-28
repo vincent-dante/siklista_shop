@@ -56,7 +56,7 @@ export default {
   name: 'App',
   data(){
     return {
-      
+
     }
   },
   components: {
@@ -66,39 +66,32 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+$font-family-Caveat: Caveat, cursive;
+$font-family-Baloo2: Baloo 2, cursive;
+$bg-white: #f2f2f2;
+
 .homepage-header {
-  background: #f2f2f2;
+  background: $bg-white;
   height: 500px;
 }
 .product-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
-}
-.product-item {
-  background: #f2f2f2;
-  height: 300px;
-}
-.bike-parts-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 10px;
-}
-.bike-parts-item {
-  background: #f2f2f2;
-  height: 200px;
+
+  .product-item {
+    background: $bg-white;
+    height: 300px;
+  }
 }
 h2 {
-  font-family: 'Caveat', cursive;
+  font-family: $font-family-Caveat;
   font-size: 32px;
 }
-h3 {
-  font-family: 'Baloo 2', cursive;
-  font-size: 20px;
-}
 .brand-style {
-  font-family: 'Caveat', cursive;
+  font-family: $font-family-Caveat;
   font-size: 35px;
 }
+
 </style>
