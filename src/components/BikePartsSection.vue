@@ -87,7 +87,7 @@ $bg-white: #f2f2f2;
 }
 h3 {
   font-family: $font-family-Raleway;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
 }
 
