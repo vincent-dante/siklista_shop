@@ -35,7 +35,7 @@
           <br>
           <br>
           <br>
-
+          <p>Hello</p>
           <h2>Mountain Bike Parts</h2>
           <BikePartSection></BikePartSection> 
 
