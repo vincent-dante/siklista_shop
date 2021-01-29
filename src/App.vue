@@ -35,7 +35,11 @@
           <br>
           <br>
           <br>
+<<<<<<< HEAD
+          <p>Hello</p>
+=======
           <h4>sss</h4>
+>>>>>>> 12e144a96fca8c057b3df89c485e2f40ff0ff723
           <h2>Mountain Bike Parts</h2>
           <BikePartSection></BikePartSection> 
 
